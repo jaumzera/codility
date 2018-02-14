@@ -1,4 +1,4 @@
-package br.com.joaomassan.codility.lesson;
+package br.com.joaomassan.codility.lesson2;
 
 import org.junit.Test;
 

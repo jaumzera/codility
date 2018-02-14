@@ -1,4 +1,4 @@
-package br.com.joaomassan.codility.lesson;
+package br.com.joaomassan.codility.lesson2;
 
 import java.util.HashSet;
 import java.util.Set;

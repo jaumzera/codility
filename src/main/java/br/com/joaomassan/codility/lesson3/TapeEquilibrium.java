@@ -1,4 +1,4 @@
-package br.com.joaomassan.codility.lesson;
+package br.com.joaomassan.codility.lesson3;
 
 public class TapeEquilibrium {
 
