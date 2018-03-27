@@ -1,4 +1,4 @@
-package br.com.joaomassan.codility.br.com.joaomassan.amazon.codility;
+package br.com.joaomassan.amazon.codility;
 
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;

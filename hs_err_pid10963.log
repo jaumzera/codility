@@ -16,7 +16,7 @@
 
 ---------------  S U M M A R Y ------------
 
-Command Line: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:34209,suspend=y,server=n -ea -Didea.test.cyclic.buffer.size=1048576 -javaagent:/home/jauzmera/dev/idea-IC-173.4127.27/lib/rt/debugger-agent.jar=/tmp/capture.props -Dfile.encoding=UTF-8 com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 -junit4 br.com.joaomassan.codility.br.com.joaomassan.amazon.codility.EarliestValidHourTest,testSolution
+Command Line: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:34209,suspend=y,server=n -ea -Didea.test.cyclic.buffer.size=1048576 -javaagent:/home/jauzmera/dev/idea-IC-173.4127.27/lib/rt/debugger-agent.jar=/tmp/capture.props -Dfile.encoding=UTF-8 com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 -junit4 EarliestValidHourTest,testSolution
 
 Host: Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz, 4 cores, 15G, Ubuntu 16.04.4 LTS
 Time: Mon Mar 26 21:09:52 2018 -03 elapsed time: 1799 seconds (0d 0h 29m 59s)
@@ -423,11 +423,11 @@ Deoptimization events (1 events):
 Event: 0,497 Thread 0x00007fc0e0016000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007fc0cc6c8fa0 method=java.lang.String.charAt(I)C @ 4 c2
 
 Classes redefined (5 events):
-Event: 128,660 Thread 0x00007fc0e01f6000 redefined class name=br.com.joaomassan.codility.br.com.joaomassan.amazon.codility.EarliestValidHour, count=1
-Event: 866,374 Thread 0x00007fc0e01f6000 redefined class name=br.com.joaomassan.codility.br.com.joaomassan.amazon.codility.EarliestValidHour, count=2
-Event: 971,775 Thread 0x00007fc0e01f6000 redefined class name=br.com.joaomassan.codility.br.com.joaomassan.amazon.codility.EarliestValidHour, count=3
-Event: 1103,595 Thread 0x00007fc0e01f6000 redefined class name=br.com.joaomassan.codility.br.com.joaomassan.amazon.codility.EarliestValidHour, count=4
-Event: 1798,904 Thread 0x00007fc0e01f6000 redefined class name=br.com.joaomassan.codility.br.com.joaomassan.amazon.codility.EarliestValidHour, count=5
+Event: 128,660 Thread 0x00007fc0e01f6000 redefined class name=EarliestValidHour, count=1
+Event: 866,374 Thread 0x00007fc0e01f6000 redefined class name=EarliestValidHour, count=2
+Event: 971,775 Thread 0x00007fc0e01f6000 redefined class name=EarliestValidHour, count=3
+Event: 1103,595 Thread 0x00007fc0e01f6000 redefined class name=EarliestValidHour, count=4
+Event: 1798,904 Thread 0x00007fc0e01f6000 redefined class name=EarliestValidHour, count=5
 
 Internal exceptions (8 events):
 Event: 0,329 Thread 0x00007fc0e0016000 Exception <a 'java/io/FileNotFoundException'{0x00000006d6045b08}> (0x00000006d6045b08) thrown at [/scratch/opt/mach5/mesos/work_dir/slaves/5af44a71-976a-41b7-81de-5773b84ec572-S39643/frameworks/1735e8a2-a1db-478c-8104-60c8b0af87dd-0196/executors/a3f74ad9-
@@ -686,7 +686,7 @@ ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsysca
 
 VM Arguments:
 jvm_args: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:34209,suspend=y,server=n -ea -Didea.test.cyclic.buffer.size=1048576 -javaagent:/home/jauzmera/dev/idea-IC-173.4127.27/lib/rt/debugger-agent.jar=/tmp/capture.props -Dfile.encoding=UTF-8 
-java_command: com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 -junit4 br.com.joaomassan.codility.br.com.joaomassan.amazon.codility.EarliestValidHourTest,testSolution
+java_command: com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 -junit4 EarliestValidHourTest,testSolution
 java_class_path (initial): /home/jauzmera/dev/idea-IC-173.4127.27/lib/idea_rt.jar:/home/jauzmera/dev/idea-IC-173.4127.27/plugins/junit/lib/junit-rt.jar:/home/jauzmera/dev/idea-IC-173.4127.27/plugins/junit/lib/junit5-rt.jar:/home/jauzmera/IdeaProjects/codility/target/test-classes:/home/jauzmera/IdeaProjects/codility/target/classes:/home/jauzmera/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/jauzmera/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
 Launcher Type: SUN_STANDARD
 
